@@ -1,0 +1,66 @@
+/* line 3, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+#skills {
+  width: 100%;
+  background-color: #E0DFDF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 11, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+.skills-container {
+  display: inline-block;
+  width: 200px;
+}
+
+/* line 15, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+.skills-container img {
+  width: 40%;
+}
+
+/* line 20, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+.skills-container span {
+  display: block;
+  text-align: center;
+}
+
+/* line 24, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+.skills-container .skills-title {
+  justify-content: center;
+}
+
+/* line 28, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+#about {
+  background-color: #E0DFDF;
+  width: 100%;
+}
+
+/* line 32, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/* line 39, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+ul li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+/* line 45, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* line 49, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/sass/sasstyles.scss */
+img {
+  width: 5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+}
+
+/*# sourceMappingURL=../css/sasstyles.map */

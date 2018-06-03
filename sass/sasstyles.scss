@@ -1,0 +1,53 @@
+$bgcolor: #E0DFDF;
+
+#skills {
+  width: 100%;
+  background-color: $bgcolor;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.skills-container {
+display: inline-block;
+width: 200px;
+
+img{
+  width: 40%;
+
+}
+
+span{
+  display: block;
+  text-align: center;
+}
+.skills-title{
+  justify-content: center;
+}
+}
+#about {
+  background-color: $bgcolor;
+  width: 100%
+}
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+ul li{
+  display: inline;
+  padding-left: 30px;
+  font-size: 13px;
+
+}
+body{
+  font-family: 'Roboto Mono', monospace;
+
+}
+img{
+  width: 5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+}
