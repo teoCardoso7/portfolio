@@ -1,53 +1,86 @@
-$bgcolor: #E0DFDF;
+$skillscolor: #E0DFDF;
 
-#skills {
-  width: 100%;
-  background-color: $bgcolor;
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-
-}
-.skills-container {
-display: inline-block;
-width: 200px;
-
-img{
-  width: 40%;
-
-}
-
-span{
-  display: block;
-  text-align: center;
-}
-.skills-title{
-  justify-content: center;
-}
-}
-#about {
-  background-color: $bgcolor;
-  width: 100%
-}
 #nav{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: nowrap;
   justify-content: center;
-}
-ul li{
-  display: inline;
-  padding-left: 30px;
-  font-size: 13px;
+  li{
+    display: inline;
+    margin: 0 20px;
+    font-size: 13px;
 
+  }
 }
+
+
 body{
   font-family: 'Roboto Mono', monospace;
+  height: 100vh;
 
 }
 img{
   width: 5%;
   padding-left: 3.5%;
   padding-right: 3.5%;
+}
+
+#name{
+  text-align: center;
+}
+
+#about {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+#myFace {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+#myFace img{
+  width: 100%;
+  height: auto;
+
+}
+#content{
+  height: 100%;
+  width: 30%;
+}
+.about-title {
+  font-size: 45px;
+  border-color: rgb(0, 155, 252);
+  border-width: medium;
+}
+
+.skills-title {
+  text-align: center;
+
+}
+
+#skillsContainer{
+  background-color: $skillscolor;
+  height: 50%;
+
+}
+#skills{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .skillsClass{
+    display: block;
+    height: 30%;
+    width: 30%
+
+  }
+
 }
