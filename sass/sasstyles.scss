@@ -1,5 +1,9 @@
 $skillscolor: #E0DFDF;
+header{
+  background: black;
+  color:white
 
+}
 #nav{
   display: flex;
   flex-direction: row;
@@ -64,23 +68,31 @@ img{
 .skills-title {
   text-align: center;
 
+
 }
 
 #skillsContainer{
   background-color: $skillscolor;
   height: 50%;
+  overflow: visible;
 
 }
 #skills{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: inline-block;
+
+  width: 100%;
 
   .skillsClass{
-    display: block;
-    height: 30%;
-    width: 30%
+    text-align: center;
+    display: inline-block;
+    height: 50%;
+    width: 30%;
 
   }
+  img {
+  display: inline-block;
+  vertical-align: middle;
+  margin:0 1em;
+}
 
 }

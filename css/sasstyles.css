@@ -1,4 +1,10 @@
-/* line 3, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 2, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+header {
+  background: black;
+  color: white;
+}
+
+/* line 7, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #nav {
   display: flex;
   flex-direction: row;
@@ -7,32 +13,32 @@
   justify-content: center;
 }
 
-/* line 9, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 13, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #nav li {
   display: inline;
   margin: 0 20px;
   font-size: 13px;
 }
 
-/* line 18, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 22, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 body {
   font-family: 'Roboto Mono', monospace;
   height: 100vh;
 }
 
-/* line 23, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 27, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 img {
   width: 5%;
   padding-left: 3.5%;
   padding-right: 3.5%;
 }
 
-/* line 29, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 33, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #name {
   text-align: center;
 }
 
-/* line 33, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 37, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #about {
   height: 100%;
   width: 100%;
@@ -41,7 +47,7 @@ img {
   flex-direction: row;
 }
 
-/* line 40, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 44, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #myFace {
   position: relative;
   width: 400px;
@@ -50,48 +56,56 @@ img {
   border-radius: 50%;
 }
 
-/* line 49, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 53, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #myFace img {
   width: 100%;
   height: auto;
 }
 
-/* line 54, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 58, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #content {
   height: 100%;
   width: 30%;
 }
 
-/* line 58, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 62, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-title {
   font-size: 45px;
   border-color: #009bfc;
   border-width: medium;
 }
 
-/* line 64, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 68, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .skills-title {
   text-align: center;
 }
 
-/* line 69, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 74, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #skillsContainer {
   background-color: #E0DFDF;
   height: 50%;
+  overflow: visible;
 }
 
-/* line 74, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 80, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: inline-block;
+  width: 100%;
 }
 
-/* line 79, C:/Users/teo.cardoso.7/CoderHouse/ClasesFront/ProyectoFinal/portfolio/sass/sasstyles.scss */
+/* line 85, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 #skills .skillsClass {
-  display: block;
-  height: 30%;
+  text-align: center;
+  display: inline-block;
+  height: 50%;
   width: 30%;
+}
+
+/* line 92, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+#skills img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1em;
 }
 
 /*# sourceMappingURL=../css/sasstyles.map */
