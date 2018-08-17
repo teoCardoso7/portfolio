@@ -10,12 +10,10 @@ header{
   color:white
 }
 
-<<<<<<< HEAD
 section{
   height: 100vh;
 }
-=======
->>>>>>> aabfa280ff42f4acfae9905a574ec09474a5b987
+
 #nav{
   display: flex;
   flex-direction: row;
@@ -31,7 +29,7 @@ section{
 }
 
 
-<<<<<<< HEAD
+
 body{
   font-family: 'Roboto Mono', monospace;
 
@@ -42,8 +40,7 @@ img{
   padding-right: 3.5%;
 }
 
-=======
->>>>>>> aabfa280ff42f4acfae9905a574ec09474a5b987
+
 #name{
   text-align: center;
 }
@@ -101,6 +98,7 @@ img{
 
   .skillset {
     display: flex;
+    justify-content:space-between;
   }
 
   .skill {
