@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 body {
   font-family: "Roboto Mono", monospace; }
@@ -19,12 +20,33 @@ section {
   max-width: 1024px; }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 .ionicon {
   font-size: 40px; }
+
+.underline-small {
+  color: lightseagreen;
+  position: relative; }
+
+.underline-small::after {
+  content: '';
+  height: 2px;
+  width: 20%;
+  background: #f24432;
+  position: absolute;
+  margin: auto;
+  bottom: -5px;
+  left: 0;
+  right: 0; }
 
 .main-nav {
   background-color: lightblue; }
@@ -64,5 +86,25 @@ section {
     width: 33.333333%; }
     .skills .skill p {
       font-size: 15px; }
+
+.skill span {
+  font-size: 55px;
+  color: lightseagreen; }
+
+.my-skills-title {
+  color: lightseagreen;
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative; }
+
+.my-skills-title:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 2px solid red; }
 
 /*# sourceMappingURL=styles.css.map */

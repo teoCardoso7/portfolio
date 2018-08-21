@@ -31,6 +31,26 @@ section {
 
 .ionicon { font-size: 40px; }
 
+.underline-small{
+  color:lightseagreen;
+  position:relative;
+  
+}
+
+.underline-small::after{
+  content:'';
+  height:2px;
+  width:20%;
+  background:#f24432;
+  position:absolute;
+
+  margin:auto;
+  bottom:-5px;
+  left:0; 
+  right:0;
+   
+}
+
 
 // NAVIGATION
 .main-nav {
@@ -61,6 +81,7 @@ section {
   background: {
     image: url('../assets/me/london.jpg');
     size: cover;
+    
   }
 
   .headline {
@@ -91,3 +112,27 @@ section {
     p { font-size: 15px; }
   }
 }
+.skill span{
+  font-size: 55px;
+  color:lightseagreen;
+}
+.my-skills-title{
+  color:lightseagreen;
+font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+  
+}
+.my-skills-title:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid red;
+
+}
+
+
