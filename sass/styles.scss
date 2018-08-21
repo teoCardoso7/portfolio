@@ -1,0 +1,99 @@
+@import 'variables';
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: $main-font;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ionicon {
+  font-size: 40px;
+}
+
+.main-content {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.main-nav {
+  background-color: lightblue;
+
+  .name-logo, ul {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 20px;
+    float: right;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}
+
+.main-header {
+  background: {
+    image: url('../assets/me/london.jpg');
+    size: cover;
+  }
+}
+
+.headline {
+  text-align: center;
+  h1 { margin: 0; }
+  h3 { font-size: 15px; }
+}
+
+section { width: 100%; }
+
+.about-me {
+
+  .col-left, .col-right {
+    width: 50%;
+  }
+
+}
+.about-me .col-right p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.about-me .col-left .my-face{
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1px;
+
+}
+.skills{
+  background-color: $light-gray;
+  padding-top:30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.skills h2{
+  text-transform: uppercase;
+
+}
+.skills::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.skills .skill-left, .skills .skill-center, .skills .skill-right{
+  width: 33.333333%;
+  display: inline-block;
+  float: left;
+}
+.skills p {
+  font-size: 15px;
+}
