@@ -5,17 +5,22 @@ body {
 }
 
 /* line 7, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+i {
+  font-size: 40px;
+}
+
+/* line 11, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .main-nav {
   background-color: lightblue;
 }
 
-/* line 10, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 14, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .nameLogo, .nav {
   display: inline-block;
   margin: 20px;
 }
 
-/* line 14, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 18, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .nav {
   list-style: none;
   padding-left: 0px;
@@ -23,63 +28,95 @@ body {
   float: right;
 }
 
-/* line 20, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 24, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .nav li {
   display: inline-block;
   margin-right: 20px;
 }
 
-/* line 29, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 33, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 body {
   font-family: 'Roboto Mono', monospace;
 }
 
-/* line 36, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 40, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .name-hero {
   text-align: center;
   background-image: url(../assets/me/london.jpg);
   background-size: cover;
 }
 
-/* line 42, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 46, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .name-hero h1 {
   margin: 0;
 }
 
-/* line 45, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 49, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .name-hero h3 {
   font-size: 15px;
 }
 
-/* line 49, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 53, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me {
   width: 100%;
 }
 
-/* line 53, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 57, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me h3 {
   text-align: center;
   text-transform: uppercase;
   font-size: 25px;
 }
 
-/* line 59, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 63, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me .col-left, .about-me .col-right {
   width: 50%;
   float: left;
 }
 
-/* line 63, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 67, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me .col-right p {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-/* line 67, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 71, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me .col-left .my-face {
   padding-left: 5%;
   padding-right: 5%;
   max-width: 1px;
+}
+
+/* line 77, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+.skills {
+  background-color: #E0DFDF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* line 83, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+.skills h2 {
+  text-transform: uppercase;
+}
+
+/* line 87, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+.skills::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* line 92, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+.skills .skill-left, .skills .skill-center, .skills .skill-right {
+  width: 33.333333%;
+  display: inline-block;
+  float: left;
+}
+
+/* line 97, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+.skills p {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=../css/sasstyles.map */

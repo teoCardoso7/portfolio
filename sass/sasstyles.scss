@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin:0;
 }
+i{
+  font-size: 40px;
+}
+
 .main-nav{
   background-color: lightblue;
 }
@@ -69,4 +73,27 @@ body{
   padding-right: 5%;
   max-width: 1px;
 
+}
+.skills{
+  background-color: $skillscolor;
+  padding-top:30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.skills h2{
+  text-transform: uppercase;
+
+}
+.skills::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.skills .skill-left, .skills .skill-center, .skills .skill-right{
+  width: 33.333333%;
+  display: inline-block;
+  float: left;
+}
+.skills p {
+  font-size: 15px;
 }
