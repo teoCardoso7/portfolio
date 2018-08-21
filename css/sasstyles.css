@@ -56,26 +56,26 @@ body {
   width: 100%;
 }
 
-/* line 54, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 53, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me h3 {
   text-align: center;
   text-transform: uppercase;
   font-size: 25px;
 }
 
-/* line 60, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 59, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me .col-left, .about-me .col-right {
   width: 50%;
   float: left;
 }
 
-/* line 64, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 63, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me .col-right p {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-/* line 68, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
+/* line 67, C:/Users/teo.cardoso.7/Desktop/portfolio/sass/sasstyles.scss */
 .about-me .col-left .my-face {
   padding-left: 5%;
   padding-right: 5%;
