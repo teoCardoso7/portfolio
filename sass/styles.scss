@@ -1,5 +1,6 @@
 @import 'variables';
 
+// GENERAL
 * { box-sizing: border-box; }
 
 body {
@@ -12,8 +13,9 @@ h2 {
   text-transform: uppercase;
 }
 
-.ionicon {
-  font-size: 40px;
+section {
+  padding: 50px 0;
+  width: 100%;
 }
 
 .main-content {
@@ -21,6 +23,16 @@ h2 {
   max-width: 1024px;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ionicon { font-size: 40px; }
+
+
+// NAVIGATION
 .main-nav {
   background-color: lightblue;
 
@@ -42,58 +54,40 @@ h2 {
   }
 }
 
+
+// HEADER
 .main-header {
+  padding: 25px 0;
   background: {
     image: url('../assets/me/london.jpg');
     size: cover;
   }
+
+  .headline {
+    text-align: center;
+    h1 { margin: 0; }
+    h3 { font-size: 15px; }
+  }
 }
 
-.headline {
-  text-align: center;
-  h1 { margin: 0; }
-  h3 { font-size: 15px; }
-}
 
-section { width: 100%; }
-
-.about-me {
-
-  .col-left, .col-right {
+// SECTIONS
+.about {
+  .col-left,
+  .col-right {
+    padding: 5%;
     width: 50%;
   }
+}
 
-}
-.about-me .col-right p{
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.about-me .col-left .my-face{
-  padding-left: 5%;
-  padding-right: 5%;
-  max-width: 1px;
-
-}
-.skills{
+.skills {
   background-color: $light-gray;
-  padding-top:30px;
-  padding-bottom: 30px;
   text-align: center;
-}
-.skills h2{
-  text-transform: uppercase;
 
-}
-.skills::after{
-  content: '';
-  display: block;
-  clear: both;
-}
-.skills .skill-left, .skills .skill-center, .skills .skill-right{
-  width: 33.333333%;
-  display: inline-block;
-  float: left;
-}
-.skills p {
-  font-size: 15px;
+  .skill {
+    padding: 2.5%;
+    width: 33.333333%;
+
+    p { font-size: 15px; }
+  }
 }
