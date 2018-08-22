@@ -77,16 +77,17 @@ section {
 }
 
 
+
 // HEADER
 .main-header {
   padding: 25px 0;
   background: {
-    image: url('../assets/me/london.jpg');
-    size: cover;
-    
+    image: url('../assets/images/ct.jpg');
   }
-
+  background-size: cover;
+  height: 95vh;
   .headline {
+    color: white;
     text-align: center;
     h1 { margin: 0; }
     h3 { font-size: 15px; }
