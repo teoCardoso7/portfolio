@@ -15,20 +15,21 @@ h2 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 30px;
+  line-height: 1.2em;
   letter-spacing: 2px;
 }
 
 h2 {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
   font: {
-    size: 40px;
+    size: 25px;
     style: bold;
   }
   color: $blue-highlight;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-align: center;
 
   &::after {
@@ -44,24 +45,18 @@ h2 {
   }
 }
 
-h3 {
-  font-size: 30px;
-}
+h3 { font-size: 18px; }
+
+header { height: 100vh; }
 
 header,
 section {
   display: flex;
-	align-content: center;
-	justify-content: center;
-	flex-wrap: wrap;
-  padding: 50px 0;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
   width: 100%;
-  height: 100vh;
-}
-
-.main-content {
-  margin: 0 auto;
-  max-width: 1024px;
 }
 
 .flex {
@@ -78,8 +73,8 @@ section {
 .main-header {
   background: {
     image: url('../assets/images/ct.jpg');
+    size: cover;
   }
-  background-size: cover;
 }
 
 .headline {
@@ -95,38 +90,30 @@ section {
   position: fixed;
   z-index: 999;
   top: 0;
+  left: 0;
   width: 100%;
   color: white;
   background-color: black;
 
-  .name-logo { font-size: 1.2em; }
+  .name-logo { display: none; }
 
   ul {
     list-style: none;
     padding: 0px;
-    margin: 20px;
-    float: right;
+    margin: 10px auto;
 
     li {
       display: inline-block;
-      transition: linear 150ms;
-      &:hover { background-color: $blue-highlight; }
 
       a {
         display: block;
-        padding: 5px 25px;
+        padding: 5px 10px;
         font-weight: 700;
         color: white;
         letter-spacing: 1.5px;
         text-transform: uppercase;
         text-decoration: none;
         text-shadow: 0.5px 0.5px 0px black, 1px 1px 0px $blue-highlight;
-        transition: linear 150ms;
-
-        &:hover {
-          // text-shadow: none;
-          transform: scale(1.2);
-        }
       }
     }
   }
@@ -138,8 +125,10 @@ section {
   .col-left,
   .col-right {
     padding: 5%;
-    width: 50%;
+    width: 100%;
   }
+
+  .col-right { text-align: center; }
 }
 
 .skills {
@@ -147,31 +136,16 @@ section {
   text-align: center;
 
   .skill {
-    padding: 2.5%;
-    width: 33.333333%;
+    padding: 5%;
+    width: 50%;
 
-    p { font-size: 15px; }
+    p { display: none; }
+
+    span {
+      font-size: 50px;
+      color: $blue-highlight;
+    }
   }
 }
-.skill span{
-  font-size: 55px;
-  color: $blue-highlight;
-}
-.my-skills-title{
-  color: $blue-highlight;
-font-weight: 300;
-  display: inline-block;
-  padding-bottom: 5px;
-  position: relative;
 
-}
-.my-skills-title:before{
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 2px solid red;
-
-}
+@import 'responsive';

@@ -1,11 +1,67 @@
-@media all and (min-width: 800px) {
+// MEDIA QUERIES
+@media all and (min-width: 600px) {
 
-	.main-header {
-		h1 {
-			font-size: 5em;
-			line-height: 0.8em;
-	  }
+  h1 { font-size: 60px; }
 
-        h2 { font-size: 1.4em; }
+  h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+
+  h3 { font-size: 30px; }
+
+  header,
+  section { padding: 50px 0; }
+
+  section { height: 100vh; }
+
+  .main-content {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+
+
+  // NAVIGATION
+  .main-nav {
+
+    .name-logo { font-size: 1.2em; }
+
+    ul {
+      margin: 20px;
+      float: right;
+
+      li {
+        transition: linear 150ms;
+        &:hover { background-color: $blue-highlight; }
+
+        a {
+          padding: 5px 25px;
+          transition: linear 150ms;
+          &:hover { transform: scale(1.2); }
+        }
+      }
     }
+  }
+
+
+  // SECTIONS
+  .about {
+    .col-left,
+    .col-right { width: 50%; }
+
+    .col-right { text-align: left; }
+  }
+
+  .skill {
+    padding: 2.5%;
+    width: 33.3%;
+
+    p {
+      display: block;
+      font-size: 15px;
+    }
+
+    span { font-size: 55px; }
+  }
+
 }
