@@ -8,7 +8,7 @@
     letter-spacing: 1px;
   }
 
-  h3 { font-size: 30px; }
+  h3 { font-size: 25px; }
 
   header,
   section { padding: 50px 0; }
@@ -24,7 +24,10 @@
   // NAVIGATION
   .main-nav {
 
-    .name-logo { font-size: 1.2em; }
+    .name-logo {
+      display: block;
+      font-size: 1.2em;
+    }
 
     ul {
       margin: 20px;
@@ -47,21 +50,33 @@
   // SECTIONS
   .about {
     .col-left,
-    .col-right { width: 50%; }
+    .col-right {
+      margin: 50px 0;
+      width: 50%;
+    }
+
+    .about-image {
+      display: inline-block;
+      width: 100%;
+      height: 50vh;
+      border-radius: 0;
+    }
 
     .col-right { text-align: left; }
   }
 
-  .skill {
-    padding: 2.5%;
-    width: 33.3%;
+  .skills {
+    .skill {
+      padding: 2.5%;
+      width: 33.3%;
 
-    p {
-      display: block;
-      font-size: 15px;
+      p {
+        display: block;
+        font-size: 15px;
+      }
+
+      span { font-size: 55px; }
     }
-
-    span { font-size: 55px; }
   }
 
 }

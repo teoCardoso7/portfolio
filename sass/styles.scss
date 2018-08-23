@@ -15,8 +15,10 @@ h2 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   line-height: 1.2em;
+  text-transform: lowercase;
+  text-shadow: 2px 2px 0px black;
   letter-spacing: 2px;
 }
 
@@ -45,7 +47,11 @@ h2 {
   }
 }
 
-h3 { font-size: 18px; }
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
 
 header { height: 100vh; }
 
@@ -128,6 +134,19 @@ section {
     width: 100%;
   }
 
+  .about-image {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background: {
+      image: url('../assets/me/me.jpg');
+      position: center center;
+      size: cover;
+    }
+    border-radius: 100%;
+  }
+
+  .col-left { text-align: center; }
   .col-right { text-align: center; }
 }
 
