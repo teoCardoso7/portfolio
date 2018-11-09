@@ -92,12 +92,13 @@ section {
 
 .main-nav {
   position: fixed;
-  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
   color: white;
-  background-color: black; }
+  background-color: black;
+  -webkit-transition: top 0.8ms;
+  transition: top 0.8ms; }
   .main-nav .name-logo {
     display: none; }
   .main-nav ul {
@@ -115,6 +116,17 @@ section {
         text-transform: uppercase;
         text-decoration: none;
         text-shadow: 0.5px 0.5px 0px black, 1px 1px 0px #40a8c4; }
+
+.btt-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px; }
+  .btt-button i {
+    color: #40a8c4; }
+
+.btt-button:hover i {
+  color: darkblue; }
 
 .about .col-left,
 .about .col-right {
@@ -200,7 +212,7 @@ section {
 
   .skills .skill {
     padding: 2.5%;
-    width: 25%; }
+    width: 33%; }
     .skills .skill p {
       display: block;
       font-size: 15px; }

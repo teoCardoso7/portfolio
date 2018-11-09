@@ -7,6 +7,30 @@
     <link href="https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+         $(window).scroll(function () {
+          
+            if ($(this).scrollTop() > 0) {
+              $('.main-nav').fadeOut();
+        
+            }
+            else {
+              $('.main-nav').fadeIn();
+            }
+            
+          });
+          
+        const offset = 250;
+        const duration=500;
+        $(window).scroll(function(){
+          if($(this).scrollTop()> offset){
+            $('.btt-button').fadeIn(duration)
+          }else($('.btt-button').fadeOut(duration))
+        });
+      </script>
     <title>Teo Cardoso | Fullstack & Android developer</title>
   </head>
 
@@ -16,7 +40,7 @@
 
     <header class="main-header flex">
 
-      <nav class="main-nav">
+      <div class="main-nav">
 
         <div class="main-content flex">
 
@@ -48,7 +72,8 @@
 
         </div>
 
-      </nav>
+      </div>
+
 
       <div class="headline main-content">
         <h1>Matheus Cardoso Loyarte</h1>
@@ -56,7 +81,9 @@
       </div>
 
     </header>
-
+    
+      
+    
     <section class="about" id="aboutSection">
 
       <h2>About me</h2>
@@ -87,30 +114,39 @@
           <span class="icon ion-md-desktop"></span>
 
           <h4>Responsive Web Design</h4>
-          <p>I can work on creating resposives webs from scracth as well as applying a mobile first approach on a already built page, implementing the basics web development tools as well as using Bootstrap and Sass. </p>
         </div>
 
         <div class="skill">
           <span class="icon ion-logo-android"></span>
 
           <h4>Mobile Development</h4>
-          <p>Developing Android apps was the thing that got me in the world of programming, here I can do both front-end and back-end development, using both native tools and external libraries. Currently learning React Native. </p>
         </div>
         <div class="skill">
           <span class="icon ion-logo-javascript"></span>
           <h4>Javascript / JQuery</h4>
-          <p>Applying Javascript and JQuery to make dynamic web pages its one of my favorite things to do, so simple and so complicated at the same time, from changing simple colors to getting information from a Database.</p>
         </div>
         <div class="skill">
           <span class="icon ion-logo-nodejs"></span>
           <h4>NodeJS</h4>
-          <p>The newest weapon of my arsenal, one of the most versatile tools right now NodeJS, being able to right command and managing servers via javascript its a lifesaver in most cases. Also really helps with Dynamic pages.</p>
         </div>
+        <div class="skill">
+          <span class="fab fa-react"></span>
+          <h4>React</h4>
+        </div>
+        <div class="skill">
+          <span class="icon ion-logo-github"></span>
+          <h4>GitHub</h4>
+          </div>
 
       </div>
 
-    </section>
+    </section >
 
+<a href="#top" class="btt-button"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
+
+
+
+   
   </body>
 
 </html>
